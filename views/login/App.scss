@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('posterchinh.jpg');
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 500px;
+  height: 500px;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background-color: red;
+  cursor: pointer;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.form-dangnhapngoai{
+  background-color: red;
+  width: 1000px;
+  
+}
+.radio-dangnhap{
+  text-align: auto;
+  margin-left: 40px;
+}
+.radio-dangnhap .reset-Password{
+  margin-left: 40px;
+}
+.facebook-logo {
+  display: block;
+  margin-right: 10px;
+}
+
+.gmail-logo {
+  display: block;
+  margin: 0 10px;
+}
+
+.github-logo {
+  display: block;
+  margin-left: 10px;
+}

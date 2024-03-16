@@ -1,0 +1,68 @@
+// App.scss
+
+.app {
+  font-family: Arial, sans-serif;
+
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    nav {
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li {
+          display: inline;
+          margin-right: 20px;
+          a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    padding: 20px;
+    .banner {
+      text-align: center;
+      h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1.2em;
+      }
+    }
+    .content {
+      h2 {
+        font-size: 1.5em;
+      }
+      .movie-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .movie-item {
+          width: 30%;
+          margin-bottom: 20px;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+}

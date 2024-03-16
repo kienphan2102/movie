@@ -1,0 +1,157 @@
+body {
+    background-color: #000000;
+}
+
+.history {
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+    z-index: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.search-container {
+    margin-left: 600px; 
+    background-color: #000000;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #fff8f8; 
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.search-container button {
+    padding: 8px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button i {
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #302626;
+}
+
+a.vip-button {
+    margin-left: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cddb4c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+a.vip-button:hover {
+    background-color: #9fe9b5;
+}
+
+a.vip-button:active {
+    background-color: #add837;
+}
+
+.split-container {
+    padding-top: 79px;
+    height: 1000px;
+    display: flex;
+    background-color: #000000;
+}
+
+.left-split {
+    width: 20%;
+    color: #fdfdfd;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(250, 247, 247, 0.1);
+    background-color: #1d1717;
+
+    .gach {
+        border-bottom: 1px solid rgb(146, 138, 138);
+    }
+
+    .conten-user {
+        text-align: left;
+        background-image: url('anhlammouser.jpg');
+    }
+
+    .button-muavip {
+        height: auto;
+        color: #000000;
+        background-color: #a38e67;
+    }
+
+    .gioi-thieu-mua-vip {
+        color: #add837;   
+    }
+
+    .button-dangxuat {
+        height: auto;
+        color: #000000;
+        background-color: #ce7624;
+    }
+}
+
+.right-split {
+    width: 70%;
+    color: #ff6600;
+    text-align: center;
+    width: calc(80% - 10px); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(250, 247, 247, 0.1);
+    background-color: #000000;
+
+    .gach {
+        border-bottom: 1px solid rgb(146, 138, 138);
+    }
+
+    .history-show {
+        img {
+            padding-left: 10px;
+            max-width: 20%;
+            height: 180px;
+        }
+    }
+}
